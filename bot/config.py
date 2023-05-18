@@ -19,9 +19,9 @@ from decouple import config
 class Var:
     REDIS_URI = config("REDIS_URI", default=None)
     REDIS_PASS = config("REDIS_PASS", default=None)
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = config("API_ID", default=19099900, cast=int)
+    API_HASH = config("API_HASH", default="2b445de78e5baf012a0793e60bd4fbf5")
+    BOT_TOKEN = config("BOT_TOKEN", default="6142266368:AAGfkcM2QMoXNJJVGV6qdZpTZ3JYBAzzLbU")
     BACKUP = config("BACKUP", default=0, cast=int)
     FFMPEG = config("FFMPEG", default="ffmpeg")
     CHAT = config("CHAT", cast=int)
