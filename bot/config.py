@@ -24,7 +24,7 @@ class Var:
     BOT_TOKEN = config("BOT_TOKEN", default="6142266368:AAGfkcM2QMoXNJJVGV6qdZpTZ3JYBAzzLbU")
     BACKUP = config("BACKUP", default=0, cast=int)
     FFMPEG = config("FFMPEG", default="ffmpeg")
-    CHAT = config("CHAT", cast=int)
+    CHAT = config("CHAT", default="-1001611546663", cast=int)
     THUMB = config(
         "THUMBNAIL", default="https://graph.org/file/37d9d0657d51e01a71f26.jpg"
     )
